@@ -1,0 +1,29 @@
+.btn {
+    width: 250px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    box-shadow: none;
+    cursor: pointer;
+    display: flex;
+    margin: 5% 10%;
+    padding: 10px 15px;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: white;
+    background: #737375;
+  }
+  
+  .btn_text {
+    margin-right: 10px;
+  }
+  
+  .btn_icon {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    font-size: 15px;
+    margin-left: 200px;
+  }
