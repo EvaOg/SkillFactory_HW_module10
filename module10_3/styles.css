@@ -1,0 +1,64 @@
+
+.field {
+    box-sizing: border-box;
+    margin: 3% 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  .input{
+    width: 70%;
+  }
+  
+  .upperField{
+    border: none;
+  }
+  
+  .mainField{
+    margin: 2% 20%;
+    min-height: 85%;
+    border: 1px solid rgb(91, 91, 94);
+  }
+  
+  .output{
+    min-width: 150px;
+    width: 70%;
+  }
+  
+  button {
+    min-width: 90px;
+    width: 15%;
+    margin-left: 10px;
+    padding: 10px 10px;
+    transition: all 0.2s ease;
+  }
+  
+  .messageText {
+    border: solid 1px gray;
+    border-radius: 25px;
+    padding: 10px 15px;
+    margin-top: 20px;
+    text-align: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: 4%;
+  }
+  
+  .answerText {
+    background-color: rgb(225, 230, 249);
+    border: solid 1px rgb(100, 106, 129);
+    border-radius: 25px;
+    padding: 10px 15px;
+    margin-top: 20px;
+    text-align: center;
+    position: relative;
+    margin-left: 4%;
+    margin-right: auto;
+  }
+  
+  .link{
+    text-decoration: none;
+    color: rgb(123 123 209);
+  }
+  
